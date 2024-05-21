@@ -86,7 +86,8 @@ button {
     background-color: #d69979;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
+    width: 150px;
     box-shadow: none;
     border: none;
   }
