@@ -80,6 +80,11 @@ button {
   
   /* Nav bar */
 
+  #home {
+    font-family: 'Crushed' !important;
+    font-size: 25px !important;
+  }
+
   /* navbar drop down */
 
   .dropbtn {
