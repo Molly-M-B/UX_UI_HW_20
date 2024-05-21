@@ -80,13 +80,12 @@ button {
   
   /* Nav bar */
 
-   /* navbar drop down */
+  /* navbar drop down */
 
-   .dropbtn {
+  .dropbtn {
     background-color: #d69979;
     color: white;
     padding: 16px;
-    font-family: "Sunflare";
     font-size: 20px;
     width: 150px;
     box-shadow: none;
@@ -127,6 +126,7 @@ button {
     background-color: #d69979;
     transform: none;
   }
+  
   
   
   #row {
