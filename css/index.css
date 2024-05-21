@@ -1,0 +1,643 @@
+/*buttons/interactions*/
+
+button {
+    width: 110px !important;
+    border-radius: 10px !important;
+    border: none;
+    font-size: 12px !important;
+    color: #ffffff;
+    background-color: #deaf96;
+    font-family: 'Sunflare';
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+   }
+   
+   /*button hover state*/
+
+  button:hover {
+    background-color:#ffffff;
+    color: #654838;
+    transform: scale(1.2);
+ }
+
+
+ /* hover states footer buttons */
+ #socialLink {
+    transition: all .3s ease-in-out;
+  }
+  #socialLink:hover {
+    transform: scale(1.2);
+  }
+  
+  
+
+/* preloader */
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  
+  .preloader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: #BF896B;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .preloader #spinImage {
+    position: absolute;
+    animation: spin 20s ease;
+    width: 285px;
+    align-items: center;
+  }
+  
+  .preloader #fixedImage {
+    width: 250px;
+  }
+  
+
+
+/*background colour*/
+
+  body {
+    background-color: #BF896B !important;
+  }
+  
+  /* Nav bar */
+  
+  
+  #row {
+    background-color: #d69979;
+    flex-direction: row;
+  }
+   
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  a {
+      margin: 10px;
+      padding: 10px;
+      width: 100px;
+      height: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      font-family: 'Sunflare';
+      text-decoration: none !important;
+      color:#ffffff !important;
+      transition: all .3s ease-in-out;
+      cursor: pointer;
+  }
+
+  /* nav button hover state*/
+
+   a:hover {
+    color:#654838 !important;
+   }
+  
+  
+  .logo {
+    color: #ffffff;
+    font-family: 'Crushed';
+    font-size: 20px;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+  }
+
+  /* home/logo navigation button hover state*/
+
+.logo:hover{
+    color:#654838;
+  }
+  
+  /* case study nav*/
+.nav-item {
+    width: 400px;
+    height: 50px;
+  }
+
+  #v-pills-summary-tab, #v-pills-empathy-tab, #v-pills-define-tab,#v-pills-ideate-tab,#v-pills-prototype-tab,#v-pills-conclusion-tab {
+    color: #ffffff;
+    background-color: #deaf96;
+    font-family: 'Sunflare';
+    border-radius: 0 !important;
+    border: solid #BF896B 1px !important;
+    box-shadow: none !important;
+    font-size: 18px !important;
+    width: 150px !important;
+}
+
+#v-pills-summary-tab:hover, #v-pills-empathy-tab:hover, #v-pills-define-tab:hover, #v-pills-ideate-tab:hover, #v-pills-prototype-tab:hover, #v-pills-conclusion-tab:hover {
+    color: #654838;
+    background-color: #ffffff;
+    font-family: 'Sunflare';
+    transform: none !important;
+}
+
+/* text */
+
+h1 {
+    font-size: 30px !important;
+    font-family: 'Sunflare';
+    color: #ffffff !important;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-family: 'Inter';
+    font-size: 25px !important;
+    color: #ffffff !important;
+    font-weight: light !important;
+}
+
+h3{
+    font-family: 'Inter';
+    font-size: 20px !important;
+    color: #ffffff !important;
+}
+
+ul {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: italic;
+}
+
+h4 {
+    font-size: 40px !important;
+    font-family: 'Sunflare';
+    color: #ffffff !important;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+/* images */
+
+#ISCprotoimg {
+    width: 380px;
+    position: relative;
+    padding: 20px;
+   
+}
+
+
+/* summary page*/
+
+.sectionHead {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+.summary {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.roles {
+    padding: 20px;
+}
+
+/* all section */
+
+#sectionTitle {
+    font-size: 50px !important;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+#sectionHead {
+    font-family: 'Sunflare';
+    font-size: 30px !important;
+    margin-bottom: 20px;
+}
+
+/* empathy section */
+
+.empathysection1, .empathysection2, .empathysection3, .empathysection4 {
+    padding: 40px;
+}
+
+.empathysection1 {
+    padding-top: 50px;
+}
+
+#evaluationImg, #evaluationannoImg {
+    padding: 20px;
+}
+
+#evaluationImg {
+    width: 350px;
+}
+
+#evaluationannoImg {
+    width: 250px;
+}
+
+/* bootstrap cards */
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+    font-family: 'Inter';
+    font-weight: light;
+    font-style: italic;
+    color: #ffffff !important;
+    width: 275px !important;
+    text-align: center;
+    padding: 20px;
+}
+
+#card2 {
+    padding-right: 30px ;
+    padding-left: 30px;
+}
+
+#card1 {
+    padding-right: 40px;
+}
+
+#card3 {
+    padding-left: 40px;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center !important;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.cardflexSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* define section */
+
+#prior2Imgalternate {
+    display: none;
+}
+
+.definesection1, .definesection2, .definesection3 {
+    padding: 40px;
+    padding-right: 100px;
+}
+
+/* prioritization */
+
+.definesection1 {
+    padding-top: 50px;
+}
+
+.priorSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.priorList {
+    font-size: 20px;
+}
+
+#priorImg, #prior2Img {
+    padding: 20px;
+}
+
+#priorImg {
+    width: 175px;
+}
+
+#prior2Img {
+    width: 115px;
+    height: 100px;
+}
+
+/* card sort */
+
+h3 {
+    padding-bottom: 20px;
+}
+
+#cardsortImg {
+    width: 875px;
+}
+
+/*sitemap*/
+
+#sitemapImg {
+    width: 875px;
+}
+
+
+/* Ideate section */
+
+.ideatesection1, .ideatesection2, .ideatesection3 {
+    padding: 40px;
+    padding-right: 100px;
+}
+
+/* low fidelity */
+
+.ideatesection1 {
+    padding-top: 50px;
+}
+
+figcaption {
+    caption-side: bottom;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: italic;
+    padding-left: 20px;
+}
+
+/* mid fidelity */
+
+.midSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#middesktopImg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#midmobileImg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* high fidelity */
+
+.highSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#highdesktopImg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#highmobileImg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+/* Prototyping & Testing section */
+
+.prototypesection1, .prototypesection2 {
+    padding: 40px;
+    padding-right: 100px;
+}
+
+#finaldesktopImg {
+    width: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#finalmobileImg {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#link {
+    font-family: 'Inter';
+}
+
+
+
+/* conclusion & future iterations */
+
+
+.conclusionsection1, .conclusionsection2 {
+    padding: 40px;
+    padding-right: 100px;
+}
+
+
+
+
+
+
+
+   /*footer*/
+  
+   footer {
+    background-color: #d69979;
+    margin: auto;
+    height: 120px;
+    align-content: center !important;
+  }
+  
+  .footerButtons {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center !important;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        margin-right: 10%; 
+  }
+
+  #footerLink, #socialLink {
+    justify-content: center;
+    align-content: center;
+  }
+  
+ 
+ /*break points, style changes*/
+  
+ @media only screen and (max-width: 1000px) {
+    .navigation {
+      display: flex;
+    }
+    .navLinks {
+      margin-left: auto;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      height: 150px;
+    }
+    
+    a{
+      font-size: 14px;
+      align-content: center;
+      justify-content: center;
+    }
+   
+  
+    #v-pills-tab {
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    #caseNav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    #ISCprotoimg, #evaluationImg, #evaluationannoImg, #personaImg, #taskImg, #priorImg, #cardsortImg, #sitemapImg, #lowfidImg, #middesktopImg, #midmobileImg, #highdesktopImg,  #highdesktopImg, #finaldesktopImg, #finalmobileImg, #styleGuide {
+        width: 275px;
+    }
+
+    #prior2Img {
+        display: none;
+    }
+
+    #prior2Imgalternate {
+        display: block;
+        width: 60px;
+    }
+
+    #sectionTitle {
+        font-size: 25px;
+    }
+    .sectionHead {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cardflexSection {
+        display: flex;
+        align-items: center;
+    }
+    
+    .card {
+        width: 100px;
+
+    }
+  
+    h1 {
+      font-size: 35px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+  
+    h4 {
+      font-size: 35px;
+    }
+    p{
+      font-size: 16px;
+    }
+
+    #sectionTitle {
+        font-size: 35px;
+    }
+  
+    
+  
+    li {
+      font-size: 14px;
+    }
+  
+  
+    
+  
+    .footerButtons {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      row-gap: 10px;
+    }
+  
+    footer {
+      height: 410px;
+    }
+  
+
+  #socialLink {
+    width: 40px;
+  }
+
+  #footerLink {
+    width: 60px;
+  }
+
+
+
+  
+    
+
+    .preloader{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      z-index: 100000;
+      background-color: #BF896B;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .preloader #spinImage {
+      position: absolute;
+      animation: spin 20s ease;
+      width: 120px;
+      align-items: center;
+    }
+
+    .preloader #fixedImage {
+      width: 100px;
+      align-items: center;
+    }
+  
+  }
+ 
