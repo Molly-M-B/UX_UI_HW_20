@@ -79,6 +79,52 @@ button {
   }
   
   /* Nav bar */
+
+   /* navbar drop down */
+
+   .dropbtn {
+    background-color: #d69979;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  #dropitem {
+    font-family: 'Inter';
+    font-size: 16px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BF896B;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+  }
+  
+  .dropdown-content a:hover {background-color: #deaf96;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #d69979;
+    transform: none;
+  }
   
   
   #row {
