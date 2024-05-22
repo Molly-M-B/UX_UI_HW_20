@@ -7,7 +7,7 @@ button {
     font-size: 12px !important;
     color: #ffffff;
     background-color: #deaf96;
-    font-family: 'Sunflare';
+    font-family: 'Sunflare' !important;
     padding: 10px;
     box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
     transition: all .3s ease-in-out;
@@ -84,48 +84,53 @@ button {
   /* navbar drop down */
 
   .dropbtn {
-    background-color: #d69979;
-    color: white;
-    padding: 16px;
-    font-size: 20px;
-    width: 150px;
-    box-shadow: none;
-    border: none;
+    background-color: #d69979 !important;
+    color: white !important;
+    padding: 16px !important;
+    font-size: 20px !important;
+    width: 150px !important;
+    box-shadow: none !important;
+    border: none !important;
   }
   
   .dropdown {
-    position: relative;
-    display: inline-block;
+    position: relative !important;
+    display: inline-block !important;
   }
 
   #dropitem {
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'Inter' !important;
+    font-size: 16px !important;
+   
   }
   
   .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #BF896B;
-    min-width: 160px;
-    z-index: 1;
+    display: none !important;
+    position: absolute !important;
+    background-color: #d69979 !important;
+    min-width: 160px !important;
+    z-index: 1 !important;
   }
   
   .dropdown-content a {
-    color: #ffffff;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    display: block !important;
+    min-width: 160px !important;
+    height: 60px !important;
 
   }
   
-  .dropdown-content a:hover {background-color: #deaf96;}
+  .dropdown-content a:hover {
+    background-color: #deaf96 !important;
+    width: 160px !important;
+}
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block !important;}
   
   .dropdown:hover .dropbtn {
-    background-color: #d69979;
-    transform: none;
+    background-color: #d69979 !important;
+    transform: none !important;
   }
   
   
@@ -134,52 +139,52 @@ button {
   
   
   #row {
-    background-color: #d69979;
-    flex-direction: row;
+    background-color: #d69979 !important;
+    flex-direction: row !important;
   }
    
   .navigation {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: space-between;
-    align-items: baseline;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
   }
   
   a {
-      margin: 10px;
-      padding: 10px;
-      width: 100px;
-      height: 20px;
-      font-size: 20px;
-      font-family: 'Sunflare';
-      text-decoration: none;
-      color:#ffffff ;
-      transition: all .3s ease-in-out;
-      cursor: pointer;
+      margin: 10px !important;
+      padding: 10px !important;
+      width: 100px !important;
+      height: 20px !important;
+      font-size: 20px !important;
+      font-family: 'Sunflare'!important;
+      text-decoration: none !important;
+      color:#ffffff !important;
+      transition: all .3s ease-in-out !important;
+      cursor: pointer !important;
   }
 
   /* nav button hover state*/
 
    a:hover {
-    color:#654838;
+    color:#654838 !important;
    }
   
   
   .logo {
-    color: #ffffff;
-    font-family: 'Crushed';
-    font-size: 20px;
-    padding: 10px;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
+    color: #ffffff !important;
+    font-family: 'Crushed' !important;
+    font-size: 20px !important;
+    padding: 10px !important;
+    transition: all .3s ease-in-out !important;
+    cursor: pointer !important;
   }
 
   /* home/logo navigation button hover state*/
 
 .logo:hover{
-    color:#654838;
+    color:#654838 !important;
   }
   
   /* case study nav*/
